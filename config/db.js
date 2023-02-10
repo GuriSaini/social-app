@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.set("strictQuery", true);
+mongoose.set("strictQuery", false);
 mongoose.connect(process.env.DB);
 
 const connection = mongoose.connection;
